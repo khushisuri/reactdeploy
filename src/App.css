@@ -1,38 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.body p {
+  font-family: "Montserrat";
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: whitesmoke;
   display: flex;
-  flex-direction: column;
+}
+.log-top {
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.signup-form div {
+  display: flex;
+  align-items: baseline;
+}
+.signup-form i {
+  margin-left: -20px;
+}
+.age-verify i {
+  margin-left: 20px;
+}
+
+.fa-eye {
+  color: grey;
+}
+.log-top h3 {
+  color: white;
+  margin-right: 10px;
+}
+
+.signup-form span {
+  color: blue;
+}
+
+.log-top button {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(75, 75, 219);
+  border-style: none;
+  border-radius: 3px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.headleft {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.log-body {
+  display: flex;
+}
+.age {
+  margin-left: 10px;
+}
+
+.log-top h1 {
+  font-family: "Abril Fatface";
+  color: white;
+  font-size: 40px;
+}
+.login-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 4px 0.55px rgb(194, 193, 193);
+}
+.forgot-passw {
+  margin-left: 130px;
+  color: blue;
+}
+
+.login-left input,
+label {
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+.login-left input {
+  border-style: none;
+  border-bottom: 2px solid black;
+}
+.login-left h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.login-left button {
+  width: 90px;
+  margin-top: 50px;
+  height: 35px;
+  background-color: rgb(75, 75, 219);
+  margin-left: 100px;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+}
+.login-right {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 70%;
+}
+
+.img {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.img img {
+  height: 100px;
+  width: 100px;
+  margin-left: 45px;
+  margin-top: 25px;
+  border-radius: 7px;
+}
+.bottom-line {
+  margin-top: 70px;
+}
+
+.side-nav h3 {
+  font-family: "Abril Fatface";
+  font-size: 40px;
+  color: white;
+}
+.bottom-line span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.side-nav {
+  background-color: rgb(10, 10, 37);
+  width: 100%;
+  height: -webkit-fill-available;
+}
+.side-nav p {
+  color: white;
+  margin-left: 30px;
+  height: 100;
+}
+
+.side-nav div {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.fa-th-large {
+  color: darkcyan;
+}
+.fa-arrows-alt-h {
+  color: red;
+}
+.fa-location-arrow {
+  color: orangered;
+}
+.fa-check-double {
+  color: green;
+}
+.fa-exclamation-circle {
+  color: red;
+}
+.fa-arrow-circle-left {
+  color: green;
+}
+.fa-user-friends {
+  color: yellow;
+}
+.fa-divide {
+  color: green;
+}
+.fa-gift {
+  color: red;
+}
+.fa-user-circle {
+  color: darkcyan;
+}
+.fa-cog {
+  color: yellow;
+}
+
+.top-nav img {
+  height: 20px;
+  width: 20px;
+}
+.top-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 1px;
+  background-color: white;
+  height: 60px;
+}
+.switch {
+  width: 80%;
+}
+
+.dashboard {
+  margin-right: 600px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.top-nav i {
+  margin-left: 35px;
+}
+
+.top-nav img {
+  margin-left: 6px;
+}
+
+.grow90 {
+  margin-left: 20px;
+}
+
+.fixd {
+  display: flex;
+  width: 20%;
+  height: 100v;
+}
+
+.lio {
+  border-radius: 50%;
+  background-color: darkcyan;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin-left: 7px;
+  display: flex;
+}
+
+.notiff {
+  background-color: darkcyan;
+  display: flex;
+  border-radius: 40%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 21px;
+  width: 40px;
+  height: 25px;
+}
+
+.notiff i {
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+.notiff p {
+  margin-left: -3px;
+  margin-right: 5px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.current-balance,
+.contact-details,
+.payments {
+  display: flex;
+}
+
+.contact-details {
+  align-items: baseline;
+}
+
+.contact-details div {
+  width: 370px;
+}
+
+.home div {
+  border-radius: 50%;
+  background-color: grey;
+  height: 7px;
+  width: 7px;
+  margin-left: 13px;
+}
+.home .cirle {
+  height: 20px;
+  width: 20px;
+}
+
+.head2 {
+  margin-left: 20px;
+}
+
+.head3 {
+  margin-left: 250px;
+}
+
+.head4 {
+  margin-left: 30px;
+}
+.home-sec {
+  width: 90%;
+  margin-left: 40px;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.card2,
+.card3 {
+  margin-left: 120px;
+}
+.transac-head {
+  display: flex;
+}
+.payment {
+  display: flex;
+}
+.payment button {
+  border-style: 1px solid black;
+  width: 140px;
+  height: 29px;
+  text-align: start;
+}
+.titles {
+  display: flex;
+  background-color: #f9f9f9;
+}
+
+.feild {
+  display: flex;
+}
+.pay {
+  width: 90%;
+}
+
+.payment div {
+  margin-left: 30px;
+}
+.titles p {
+  margin-left: 50px;
+}
+
+.srch {
+  width: 90px;
+  margin-top: 50px;
+  height: 35px;
+  background-color: rgb(75, 75, 219);
+  border-style: none;
+  margin-left: 370px;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-details button {
+  width: 90px;
+  height: 35px;
+  background-color: rgb(75, 75, 219);
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+}
+.home-middle,
+.contact-details,
+.card2,
+.card3,
+.current-balance,
+.card1 {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.home-middle,
+.card2,
+.card3,
+.current-balance,
+.card1 {
+  box-shadow: 2px 2px 9px rgba(34, 46, 70, 0.219);
+}
+.card3,
+.card2,
+.card1 {
+  padding: 5px;
+  width: 400px;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.home-middle {
+  padding: 10px;
+  padding-left: 30px;
+}
+.current-balance {
+  padding-left: 10px;
+}
+.head1,
+.head2 {
+  border: solid 1px rgb(180, 179, 179);
+  padding: 3px;
+}
+
+.head3 {
+  border-left: solid 1px rgb(180, 179, 179);
+  padding: 3px;
+  padding-left: 11px;
+}
+.head4 {
+  color: blue;
+}
+
+.head1 {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.head2 {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: 0px;
+  border-left: none;
+}
+
+.signup-form button {
+  margin-left: 15px;
+  margin-top: -40px;
+  height: 40px;
+  width: 150px;
+}
+
+.line {
+  margin-left: 10px;
+}
+
+.signup-form {
+  margin-left: -10px;
+}
+.signup-form label {
+  color: rgb(71, 71, 201);
+}
+.forgot-form p {
+  color: gray;
+}
+
+.forgot-form h3 {
+  margin-left: 1px;
+}
+
+.forgot-form input {
+  margin-left: -2px;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.forgot-form button {
+  margin-top: 90px;
+  width: 140px;
+  margin-left: 50px;
+  height: 40px;
+}
+.forgot-form h1,
+h3 {
+  color: rgb(64, 67, 71);
+}
+.forgot-form {
+  margin-left: 10px;
+}
+.forgot-form h1 {
+  margin-left: 10px;
+}
+.signup-form h1 {
+  margin-left: 50px;
+}
+.feild {
+  justify-content: space-around;
+  align-items: center;
+}
+.feild button {
+  height: 30px;
+  width: 80px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.transac-head p {
+  margin-left: 70px;
+  margin-bottom: -1px;
+}
+.titles {
+  width: 900 px;
+  justify-content: space-between;
+  margin-left: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.transac-head {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+}
+.payment {
+  background-color: white;
+}
+
+.pay {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  margin-left: 50px;
+}
+
+.titles,
+.feild {
+  border-top: 1px solid lightgray;
+}
+
+.feild {
+  height: 50px;
+}
+.p {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.transac-head {
+  height: 50px;
+}
+.forgot {
+  background: #23304c;
+}
+
+.forgot-form p {
+  background-color: white;
+}
+.r {
+  color: blue;
+  border-bottom: 3px solid blue;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+.btnn {
+  width: 90px;
+  margin-top: 50px;
+  height: 35px;
+  background-color: rgb(75, 75, 219);
+  border-style: none;
+
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 10px;
+}
+.sign-up {
+  background-color: #23304c;
+}
+.log-body {
+  background-color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.log-top {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.my-acc-container {
+  padding-bottom: 80px;
+}
+
+.menu-row {
+  background-color: white;
+}
+
+.menu-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 6px auto;
+}
+
+.menu-content .brand {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #23304c;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.menu-icons {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icons img {
+  margin: 0 20px;
+}
+
+.menu-icons img:last-of-type {
+  padding-left: 5px;
+}
+.menu-icons p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+  color: #23304c;
+}
+.content-table {
+  width: 90%;
+  margin: 75px auto;
+  overflow: hidden;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.content-row,
+.content-heading {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.content-row p,
+.content-heading p {
+  margin: 0;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+}
+
+.content-heading {
+  background-color: #f9f9f9;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.content-heading:first-of-type {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.content-heading .val {
+  color: #2b83ea;
+}
+
+.content-heading span {
+  font-weight: 700;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.value img {
+  margin-left: 20px;
+  cursor: pointer;
 }
