@@ -18,7 +18,7 @@ function App() {
   const nav = useNavigate();
   useEffect(() => {
     if (path.pathname === "/") {
-      nav("/components/");
+      nav("/components");
     }
   }, []);
   return (
