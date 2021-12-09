@@ -17,7 +17,7 @@ function App() {
   const path = useLocation();
   const nav = useNavigate();
   useEffect(() => {
-    if (path.pathname === "/") {
+    if (path.pathname === "/reactdeploy/") {
       nav("/components");
     }
   }, []);
