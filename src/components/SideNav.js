@@ -32,36 +32,20 @@ const SideNav = () => {
               <p>Settlement</p>{" "}
             </Link>
           </div>
-          <div>
-            <i className="fas fa-exclamation-circle"></i>
-            <p>Disputes</p>
-          </div>
+
           <div>
             <i className="fas fa-arrow-circle-left"></i>
-            <p>Refunds</p>
+            <Link to="./components/Refund ">
+              <p>Refunds</p>
+            </Link>
           </div>
-          <div>
-            <i className="fas fa-user-friends"></i>
-            <p>Customers</p>
-          </div>
-          <div>
-            <i className="fas fa-divide"></i>
-            <p>Offers</p>
-          </div>
-          <div>
-            <i className="fas fa-gift"></i>
-            <p>Rewards Ponits</p>
-          </div>
+
           <div>
             <i className="fas fa-user-circle"></i>
             <Link to="/components/MyAccount ">
               {" "}
               <p>My Account</p>{" "}
             </Link>
-          </div>
-          <div>
-            <i className="fas fa-cog"></i>
-            <p>settings </p>
           </div>
         </section>
       </div>
