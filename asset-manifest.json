@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactdeploy/static/css/main.b10d08da.chunk.css",
+    "main.js": "/reactdeploy/static/js/main.be3c5e92.chunk.js",
+    "main.js.map": "/reactdeploy/static/js/main.be3c5e92.chunk.js.map",
+    "runtime-main.js": "/reactdeploy/static/js/runtime-main.aa62589c.js",
+    "runtime-main.js.map": "/reactdeploy/static/js/runtime-main.aa62589c.js.map",
+    "static/js/2.db4463c8.chunk.js": "/reactdeploy/static/js/2.db4463c8.chunk.js",
+    "static/js/2.db4463c8.chunk.js.map": "/reactdeploy/static/js/2.db4463c8.chunk.js.map",
+    "index.html": "/reactdeploy/index.html",
+    "static/css/main.b10d08da.chunk.css.map": "/reactdeploy/static/css/main.b10d08da.chunk.css.map",
+    "static/js/2.db4463c8.chunk.js.LICENSE.txt": "/reactdeploy/static/js/2.db4463c8.chunk.js.LICENSE.txt",
+    "static/media/byju.5fac14b6.jpg": "/reactdeploy/static/media/byju.5fac14b6.jpg",
+    "static/media/disney.a70e5234.png": "/reactdeploy/static/media/disney.a70e5234.png",
+    "static/media/lion.d3a48766.png": "/reactdeploy/static/media/lion.d3a48766.png",
+    "static/media/netflixlogo.cca6b5ba.jpg": "/reactdeploy/static/media/netflixlogo.cca6b5ba.jpg",
+    "static/media/unnamed.53eb75ed.png": "/reactdeploy/static/media/unnamed.53eb75ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa62589c.js",
+    "static/js/2.db4463c8.chunk.js",
+    "static/css/main.b10d08da.chunk.css",
+    "static/js/main.be3c5e92.chunk.js"
+  ]
+}
