@@ -1,28 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-const url = "/mockdata.json";
+
+import * as dataArray from "../components/moc-data/mockdata.json";
 
 const Settlement = () => {
   useEffect(() => {
-    fetchData();
+    console.log(dataArray.default);
   });
 
-  const [data, setData] = useState([]);
-
-  const fetchData = () => {
-    console.log("runs");
-    fetch(url)
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data);
-        setData(data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
   return (
     <>
       <div className="pay">
@@ -66,7 +51,7 @@ const Settlement = () => {
         </div>
 
         <div className="feilds">
-          {data.map((user, index) => {
+          {dataArray.default.map((user, index) => {
             const { id, contact, amount, time, paymentId, tax } = user;
             return (
               <article
